@@ -5,13 +5,12 @@ Author: Sanna
 
 
 #include <Arduino.h>
-#include <FixMe.h>
 
 int x = 0;
 int Second_Number = 1;
 int NEXTNumber;
 int foo = 0;
-
+extern void BlinkIfPrime(int number);
 
 void setup() {
  

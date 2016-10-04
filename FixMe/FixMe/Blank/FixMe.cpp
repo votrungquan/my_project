@@ -6,7 +6,10 @@
  */ 
 
 
+#include <Arduino.h>
+#include <FixMe.h>
  // func blinks if prime number, not working?
+
  void BlinkIfPrime(int number) {
  
 	for (int i = 2; i <= (number/2); ++i) {
@@ -17,3 +20,4 @@
 			delay(500);
 }
 }
+ }

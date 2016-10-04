@@ -1,6 +1,5 @@
 
-
-
-void BlinkIfPrime(int number)
+#include <Arduino.h>
+void BlinkIfPrime(int number);
 
 
